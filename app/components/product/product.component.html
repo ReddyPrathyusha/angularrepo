@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-6">
+    <img *ngIf="product" [src]="product?.imageUrl" alt="">
+  </div>
+  <div class="col-6">
+    <h1>{{product?.productName}}</h1>
+    <p>{{product?.productCode}}</p>
+    <p>{{product?.releaseDate}}</p>
+    <p>{{product?.description}}</p>
+    <p>{{product?.starRating}}</p>
+  </div>
+</div>

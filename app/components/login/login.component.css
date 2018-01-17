@@ -1,0 +1,17 @@
+:host{
+    display: block;
+    padding: 20px;
+}
+li{
+    float: left;
+}
+
+.is-invalid {
+    color: red;
+}
+.is-invalid input{
+    border-color : red;
+}
+.is-invalid .text-muted{
+    color : red;
+}

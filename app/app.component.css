@@ -1,0 +1,9 @@
+
+app-main{
+    width: 70%;
+    float:left;
+}
+app-sidebar{
+    width: 30%;
+    float:left;
+}

@@ -1,0 +1,12 @@
+<app-header class="row"></app-header> 
+<div class="main row">
+  <div class="col-sm-9">
+      <p><strong>{{idleState}}</strong></p>
+      <p *ngIf="lastPing"><small>Last keepalive ping <strong>{{lastPing | amTimeAgo}}</strong></small></p>
+      <button (click)="reset()" *ngIf="timedOut">Restart</button>
+      
+    <router-outlet></router-outlet> 
+  </div>
+  <app-sidebar class="col-sm-3"></app-sidebar>
+</div>
+<app-footer class="row"></app-footer>
